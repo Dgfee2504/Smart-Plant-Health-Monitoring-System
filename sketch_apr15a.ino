@@ -4,12 +4,12 @@
 #include <DHT.h>
 
 // WiFi credentials
-const char* ssid = "SNUC";
-const char* password = "snu12345";
+const char* ssid = "wifi name";
+const char* password = "wifi password";
 
 // Flask server endpoints
-const char* serverStatusURL = "http://10.31.25.157:5000/status";
-const char* serverDHTURL = "http://10.31.25.157:5000/dht";
+const char* serverStatusURL = "ip address";
+const char* serverDHTURL = "ip address/dht";
 
 // RGB LED Pins
 #define RED_PIN   16
